@@ -1,69 +1,304 @@
 <!DOCTYPE html>
 <html lang="pl">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Juwenalia AT Tarnów - Najlepsza impreza w mieście!</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Juwenalia AT Tarnów 2026</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <!-- Nawigacja -->
-    <header>
-        <nav>
-            <div class="logo">AT Tarnów</div>
-            <ul>
-                <li><a href="#about">O wydarzeniu</a></li>
-                <li><a href="#lineup">Line-up</a></li>
-                <li><a href="#location">Lokalizacja</a></li>
-                <li><a href="#tickets">Bilety</a></li>
-            </ul>
-        </nav>
-    </header>
+<!-- NAV -->
+<nav>
+  <div class="logo">AT Tarnów</div>
+  <ul class="nav-links">
+    <li><a href="#about">O&nbsp;Wydarzeniu</a></li>
+    <li><a href="#program">Program</a></li>
+    <li><a href="#artysci">Artyści</a></li>
+    <li><a href="#miejsce">Miejsce</a></li>
+    <li><a href="#rejestracja">Rejestracja</a></li>
+  </ul>
+</nav>
 
-    <main>
-        <!-- Sekcja Hero (Powitalna) -->
-        <section id="hero">
-            <div class="hero-content">
-                <h1>Juwenalia AT Tarnów 2026</h1>
-                <p>Poczuj energię studenckiego święta! Dołącz do nas i twórz historię.</p>
-                <a href="#tickets" class="btn-primary">Zgarnij bilet</a>
-            </div>
-        </section>
+<!-- HERO -->
+<section id="hero">
+  <div class="hero-bg"></div>
+  <div class="hero-ring ring1"></div>
+  <div class="hero-ring ring2"></div>
+  <div class="hero-ring ring3"></div>
 
-        <!-- O wydarzeniu / Reklama Uczelni -->
-        <section id="about">
-            <h2>O Juwenaliach</h2>
-            <p>Akademia Tarnowska zaprasza na największe wydarzenie roku. Koncerty, warsztaty i niesamowita atmosfera.</p>
-            <!-- Tutaj można dodać info o uczelni jako reklamę -->
-        </section>
+  <p class="hero-eyebrow fade-up">Akademia Tarnowska &nbsp;·&nbsp; Juwenalia 2026</p>
+  <h1 class="fade-up delay-1">
+    JUWE<span>NA</span><br>LIA<br><span>2026</span>
+  </h1>
+  <p class="hero-sub fade-up delay-2">
+    Największe studenckie święto Tarnowa wraca! Trzy dni muzyki, zabawy i niezapomnianych chwil w sercu Akademii Tarnowskiej.
+  </p>
+  <div class="hero-date fade-up delay-3">
+    <span class="date-pill">15–17 Maja 2026</span>
+    <a href="#rejestracja" class="btn">Zgarnij wejściówkę</a>
+  </div>
+</section>
 
-        <!-- Artysty / Program -->
-        <section id="lineup">
-            <h2>Kto wystąpi?</h2>
-            <div class="artist-grid">
-                <!-- Przykładowe kafelki z artystami -->
-                <article class="artist-card">Gwiazda Wieczoru</article>
-                <article class="artist-card">Zespół Studencki</article>
-                <article class="artist-card">DJ Set</article>
-            </div>
-        </section>
+<!-- COUNTDOWN -->
+<section id="countdown">
+  <p class="countdown-label">Do rozpoczęcia zostało</p>
+  <div class="countdown-grid">
+    <div class="count-unit">
+      <div class="count-num" id="days">00</div>
+      <div class="count-unit-label">Dni</div>
+    </div>
+    <div class="count-sep">:</div>
+    <div class="count-unit">
+      <div class="count-num" id="hours">00</div>
+      <div class="count-unit-label">Godzin</div>
+    </div>
+    <div class="count-sep">:</div>
+    <div class="count-unit">
+      <div class="count-num" id="minutes">00</div>
+      <div class="count-unit-label">Minut</div>
+    </div>
+    <div class="count-sep">:</div>
+    <div class="count-unit">
+      <div class="count-num" id="seconds">00</div>
+      <div class="count-unit-label">Sekund</div>
+    </div>
+  </div>
+</section>
 
-        <!-- Sekcja Kontakt / Lokalizacja -->
-        <section id="location">
-            <h2>Gdzie się widzimy?</h2>
-            <p>Kampus AT Tarnów, ul. Mickiewicza 8</p>
-            <div id="map">
-                <!-- Tu w przyszłości można wpiąć Google Maps -->
-            </div>
-        </section>
-    </main>
+<!-- O WYDARZENIU -->
+<section id="about">
+  <div>
+    <p class="section-tag">O Wydarzeniu</p>
+    <h2>Trzy dni<br>studenckiej<br>wolności</h2>
+    <p class="about-text">
+      Juwenalia AT Tarnów to coroczne święto społeczności akademickiej naszej uczelni. To czas koncertów, konkursów, integracji i wspólnej zabawy. W tym roku przygotowaliśmy dla Was wyjątkowy program z artystami, którzy rozgrzeją każdą imprezę!
+    </p>
+    <p class="about-text">
+      Wstęp wolny dla studentów AT Tarnów z ważną legitymacją studencką. Zapraszamy wszystkich, którzy chcą świętować razem z nami!
+    </p>
+  </div>
+  <div class="about-stats">
+    <div class="stat-card">
+      <div class="stat-num">3</div>
+      <div class="stat-label">Dni Zabawy</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-num">10+</div>
+      <div class="stat-label">Artystów</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-num">5</div>
+      <div class="stat-label">Scen & Stref</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-num">∞</div>
+      <div class="stat-label">Wspomnień</div>
+    </div>
+  </div>
+</section>
 
-    <!-- Stopka -->
-    <footer>
-        <p>&copy; 2026 Akademia Tarnowska. Projekt zrealizowany przez [Wasze Imiona].</p>
-    </footer>
+<!-- PROGRAM -->
+<section id="program">
+  <p class="section-tag" style="text-align:center">Program</p>
+  <h2>Plan Wydarzeń</h2>
+  <div class="program-grid">
+    <div class="day-card">
+      <div class="day-header">
+        <span class="day-name">Piątek</span>
+        <span class="day-date">15 Maja 2026</span>
+      </div>
+      <ul class="day-events">
+        <li class="event-item">
+          <span class="event-time">14:00</span>
+          <div>
+            <div class="event-name">Oficjalne Otwarcie Juwenaliów</div>
+            <div class="event-sub">Przemówienia władz uczelni</div>
+          </div>
+        </li>
+        <li class="event-item">
+          <span class="event-time">16:00</span>
+          <div>
+            <div class="event-name">Turniej Sportowy AT</div>
+            <div class="event-sub">Piłka nożna, siatkówka, tenis stołowy</div>
+          </div>
+        </li>
+        <li class="event-item">
+          <span class="event-time">18:00</span>
+          <div>
+            <div class="event-name">Koncerty Studenckich Zespołów</div>
+            <div class="event-sub">Scena główna</div>
+          </div>
+        </li>
+        <li class="event-item">
+          <span class="event-time">21:00</span>
+          <div>
+            <div class="event-name">Koncert Gwiazdy Wieczoru</div>
+            <div class="event-sub">Artysta TBA</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <div class="day-card">
+      <div class="day-header">
+        <span class="day-name">Sobota</span>
+        <span class="day-date">16 Maja 2026</span>
+      </div>
+      <ul class="day-events">
+        <li class="event-item">
+          <span class="event-time">12:00</span>
+          <div>
+            <div class="event-name">Strefa Food & Chill</div>
+            <div class="event-sub">Food trucki, zabawy, gry</div>
+          </div>
+        </li>
+        <li class="event-item">
+          <span class="event-time">15:00</span>
+          <div>
+            <div class="event-name">Konkurs Talentów AT</div>
+            <div class="event-sub">Zgłoś swój talent!</div>
+          </div>
+        </li>
+        <li class="event-item">
+          <span class="event-time">19:00</span>
+          <div>
+            <div class="event-name">Wielki Koncert Główny</div>
+            <div class="event-sub">Kilka godzin muzyki na żywo</div>
+          </div>
+        </li>
+        <li class="event-item">
+          <span class="event-time">23:00</span>
+          <div>
+            <div class="event-name">Afterparty</div>
+            <div class="event-sub">DJ set do białego rana</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <div class="day-card">
+      <div class="day-header">
+        <span class="day-name">Niedziela</span>
+        <span class="day-date">17 Maja 2026</span>
+      </div>
+      <ul class="day-events">
+        <li class="event-item">
+          <span class="event-time">11:00</span>
+          <div>
+            <div class="event-name">Juwenaliowe Śniadanie</div>
+            <div class="event-sub">Wspólne śniadanie dla wszystkich</div>
+          </div>
+        </li>
+        <li class="event-item">
+          <span class="event-time">13:00</span>
+          <div>
+            <div class="event-name">Mecz Studenci vs. Wykładowcy</div>
+            <div class="event-sub">Coroczna tradycja AT</div>
+          </div>
+        </li>
+        <li class="event-item">
+          <span class="event-time">17:00</span>
+          <div>
+            <div class="event-name">Koncert Zamykający</div>
+            <div class="event-sub">Do zobaczenia za rok!</div>
+          </div>
+        </li>
+        <li class="event-item">
+          <span class="event-time">20:00</span>
+          <div>
+            <div class="event-name">Oficjalne Zamknięcie</div>
+            <div class="event-sub">Ceremonia zakończenia</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
 
-    <script src="script.js"></script>
+<!-- ARTYŚCI -->
+<section id="artysci">
+  <p class="section-tag">Line-up</p>
+  <h2>Artyści</h2>
+  <div class="artists-grid">
+    <div class="artist-card">
+      <div class="artist-avatar">G1</div>
+      <div class="artist-name">Gwiazda Wieczoru</div>
+      <div class="artist-genre">Pop / Dance</div>
+      <span class="artist-day">Piątek</span>
+    </div>
+    <div class="artist-card">
+      <div class="artist-avatar">G2</div>
+      <div class="artist-name">Headliner</div>
+      <div class="artist-genre">Hip-hop / R&B</div>
+      <span class="artist-day">Sobota</span>
+    </div>
+    <div class="artist-card">
+      <div class="artist-avatar">ZS</div>
+      <div class="artist-name">Zespoły Studenckie AT</div>
+      <div class="artist-genre">Rock / Indie / Jazz</div>
+      <span class="artist-day">Piątek – Niedziela</span>
+    </div>
+    <div class="artist-card">
+      <div class="artist-avatar">DJ</div>
+      <div class="artist-name">DJ Set Afterparty</div>
+      <div class="artist-genre">House / Electronic</div>
+      <span class="artist-day">Sobota</span>
+    </div>
+  </div>
+  <p class="artists-note">
+    Pełny line-up zostanie ogłoszony wkrótce — śledź nasze media społecznościowe!
+  </p>
+</section>
+
+<!-- MIEJSCE -->
+<section id="miejsce">
+  <div class="miejsce-inner">
+    <div class="miejsce-info">
+      <p class="section-tag">Lokalizacja</p>
+      <h2>Gdzie to<br>wszystko?</h2>
+      <p>
+        Juwenalia odbędą się na terenie kampusu Akademii Tarnowskiej im. Komisji Edukacji Narodowej w Tarnowie. Główna scena zostanie ustawiona na dziedzińcu uczelni, a strefy tematyczne rozlokowane w budynkach i na terenach zielonych.
+      </p>
+      <div class="address-block">
+        <p>
+          <strong class="address-gold">Akademia Tarnowska KEN</strong><br>
+          ul. Mickiewicza 8<br>
+          33-100 Tarnów<br>
+          woj. Małopolskie
+        </p>
+      </div>
+      <a href="https://maps.google.com/?q=Akademia+Tarnowska+Tarnow" target="_blank" class="btn miejsce-btn">Otwórz w Mapach</a>
+    </div>
+    <div class="map-placeholder">
+      <div class="map-icon">📍</div>
+      <div class="map-note">
+        Akademia Tarnowska im. KEN<br>
+        ul. Mickiewicza 8, Tarnów<br>
+        <span class="map-small">Kliknij „Otwórz w Mapach" →</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- REJESTRACJA -->
+<section id="rejestracja">
+  <p class="section-tag">Dołącz do nas</p>
+  <h2>Bądź na<br><span class="gold-text">liście!</span></h2>
+  <p>Zostaw swój e-mail i bądź pierwszy, gdy pojawi się pełny line-up, harmonogram i niespodzianki. Studenci AT Tarnów — wejście z legitymacją!</p>
+  <div class="reg-form">
+    <input type="email" id="emailInput" placeholder="Twój e-mail...">
+    <button class="btn" onclick="handleRegister()">Zapisz się</button>
+  </div>
+  <p class="success-msg" id="successMsg">🎉 Super! Dodaliśmy Cię do listy. Do zobaczenia na Juwenaliach!</p>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-logo">AT Tarnów · Juwenalia 2026</div>
+  <div class="footer-copy">© 2026 Akademia Tarnowska im. KEN w Tarnowie. Wszelkie prawa zastrzeżone.</div>
+</footer>
+
+<script src="script.js"></script>
 </body>
 </html>
